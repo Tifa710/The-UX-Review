@@ -12,6 +12,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.clr {
+  clear: both;
+}
 .container {
   width: 80%;
   margin: auto;
@@ -72,14 +75,10 @@ body {
 }
 .herosection {
   background-color: #fff085;
-  height: 120vh;
+  min-height: 110vh;
   width: 100%;
   border-bottom: 5px black solid;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
+  padding-top: 100px;
 }
 .hero {
   display: flex;
@@ -177,4 +176,27 @@ body {
   box-shadow: 6px 6px black;
   transform: rotate(1deg);
   margin-left: auto;
+}
+.leftarticales {
+  width: 70%;
+  padding-top: 30px;
+  background-color: #155dfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.leftarticales h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.leftarticales .freshcontent {
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: larger;
+  background-color: black;
+  color: white;
+  box-shadow: 3px 3px black;
+  transform: rotate(3deg);
 }
