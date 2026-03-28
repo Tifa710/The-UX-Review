@@ -180,7 +180,6 @@ body {
 .leftarticales {
   width: 70%;
   padding-top: 30px;
-  background-color: #155dfc;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -200,8 +199,6 @@ body {
   box-shadow: 3px 3px black;
   transform: rotate(3deg);
 }
-.articles_content_cards {
-}
 .articles_content_card {
   display: flex;
   flex: row wrap;
@@ -210,6 +207,7 @@ body {
   border: 3px solid black;
   box-shadow: 5px 5px 0 black;
   margin: 30px 0px;
+  transition: 500ms ease-in-out;
 }
 .articles_content_image {
   width: 40%;
@@ -260,4 +258,39 @@ body {
 }
 .articles_card_child span {
   font-weight: bold;
+}
+.articles_content_card_1:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 10px 10px 0 black;
+}
+.articles_content_card_1:hover h4 {
+  color: #e7000b;
+}
+.articles_content_card_2:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 10px 10px 0 black;
+}
+.articles_content_card_2:hover h4 {
+  color: #155dfc;
+}
+.articles_content_card_3:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 10px 10px 0 black;
+}
+.articles_content_card_3:hover h4 {
+  color: #9810fa;
+}
+.articles_card_content .back-3 {
+  background-color: #fda5d5;
+}
+.articles_content_card_3 .articles_content_image p {
+  background-color: #ad46ff;
+}
+.articles_card_content .back-2 {
+  background-color: #7bf1a8;
+  rotate: 2deg;
+}
+.articles_content_card_2 .articles_content_image p {
+  background-color: #2b7fff;
+  rotate: -40deg;
 }
