@@ -76,7 +76,7 @@ body {
 .herosection {
   background-color: #fff085;
   min-height: 110vh;
-  width: 100%;
+  max-width: 100%;
   border-bottom: 5px black solid;
   padding-top: 100px;
 }
@@ -177,8 +177,17 @@ body {
   transform: rotate(1deg);
   margin-left: auto;
 }
+.latestarticles {
+  border-bottom: 5px black solid;
+}
+.latestarticles .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
 .leftarticales {
-  width: 70%;
+  width: 65%;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -293,4 +302,144 @@ body {
 .articles_content_card_2 .articles_content_image p {
   background-color: #2b7fff;
   rotate: -40deg;
+}
+
+.articles_btn {
+  background-color: black;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 5px 5px 0 black;
+  transition: 80ms;
+  cursor: pointer;
+}
+.articles_btn:hover {
+  transform: translate(5px, 5px);
+  box-shadow: 0 0 0 black;
+}
+.trendingandcategories {
+  width: 30%;
+  position: sticky;
+  top: 100px;
+}
+.trending {
+  padding: 20px;
+  border: 5px solid black;
+  box-shadow: 6px 6px 0 black;
+}
+.trending h3 {
+  font-size: 35px;
+}
+.trendingcontant {
+  display: flex;
+}
+.trendingcontantnumber {
+  font-size: 30px;
+  font-weight: bold;
+}
+.trendingnumbercolor1 {
+  color: #fb2c36;
+}
+.trendingnumbercolor2 {
+  color: #2b7fff;
+}
+.trendingnumbercolor3 {
+  color: #ad46ff;
+}
+.trendingcontantcolor1 {
+  transition: 50ms;
+  font-weight: bold;
+  cursor: pointer;
+}
+.trendingcontantcolor1:hover {
+  color: #fb2c36;
+}
+.trendingcontantcolor2 {
+  transition: 50ms;
+  font-weight: bold;
+  cursor: pointer;
+}
+.trendingcontantcolor2:hover {
+  color: #2b7fff;
+}
+.trendingcontantcolor3 {
+  transition: 50ms;
+  font-weight: bold;
+  cursor: pointer;
+}
+.trendingcontantcolor3:hover {
+  color: #ad46ff;
+}
+.trendingcontantdescribtion {
+  padding: 10px;
+}
+.trendingcontantdescribtion span {
+  font-weight: lighter;
+}
+.categories {
+  padding: 20px;
+  border: 5px solid black;
+  box-shadow: 6px 6px 0 black;
+}
+.categories h3 {
+  font-size: 35px;
+}
+.category {
+  margin-top: 15px;
+  padding: 15px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+.categorycolor1 {
+  background-color: #fef9c2;
+  cursor: pointer;
+  transition: 50ms;
+}
+.categorycolor1:hover {
+  background-color: #ffdf20;
+  transform: translate(-4px, -4px);
+  box-shadow: 5px 5px 0 black;
+}
+.categorycolor2 {
+  background-color: #dbfce7;
+  cursor: pointer;
+  transition: 50ms;
+}
+.categorycolor2:hover {
+  background-color: #7bf1a8;
+  transform: translate(-4px, -4px);
+  box-shadow: 5px 5px 0 black;
+}
+.categorycolor3 {
+  background-color: #fce7f3;
+  cursor: pointer;
+  transition: 50ms;
+}
+.categorycolor3:hover {
+  background-color: #fda5d5;
+  transform: translate(-4px, -4px);
+  box-shadow: 5px 5px 0 black;
+}
+.categorycolor4 {
+  background-color: #dbeafe;
+  cursor: pointer;
+  transition: 50ms;
+}
+.categorycolor4:hover {
+  background-color: #8ec5ff;
+  transform: translate(-4px, -4px);
+  box-shadow: 5px 5px 0 black;
+}
+.categorycolor5 {
+  background-color: #f3e8ff;
+  cursor: pointer;
+  transition: 50ms;
+}
+.categorycolor5:hover {
+  background-color: #dab2ff;
+  transform: translate(-4px, -4px);
+  box-shadow: 5px 5px 0 black;
 }
