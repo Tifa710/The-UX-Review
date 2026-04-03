@@ -649,3 +649,130 @@ body {
   padding: 10px;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+.maincontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.firstcommunity {
+  width: 45%;
+  padding: 10px;
+}
+.firstcommunity h2 {
+  font-size: 40px;
+}
+.communitydescribtion {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 4px 4px 0 black;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.firstcommunity_icons div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.firstcommunity_icons span {
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+.firstcommunity_icons p {
+  font-weight: bold;
+}
+.bgcheck {
+  background-color: #fb2c36;
+}
+.bgdiscord {
+  background-color: #2b7fff;
+}
+.bgstar {
+  background-color: #ad46ff;
+}
+.bgpen {
+  background-color: #00c950;
+}
+.btncommunity {
+  width: 60%;
+  margin-top: 40px auto;
+  background-color: black;
+  padding: 30px 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 6px 6px 0 black;
+  transition: 500ms;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btncommunity:hover {
+  transform: translate(6px, 6px);
+  box-shadow: 0 0 0 black;
+}
+.secondcommunity {
+  width: 50%;
+  padding: 15px 30px;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 8px 8px 0 black;
+}
+.secondcommunity h2 {
+  font-size: 35px;
+}
+.communitycard {
+  padding: 10px;
+  margin: 20px 0;
+  border: 2px solid black;
+}
+.bgcommunity1 {
+  background-color: #fef2f2;
+}
+.bgcommunity2 {
+  background-color: #eff6ff;
+}
+.bgcommunity3 {
+  background-color: #faf5ff;
+}
+.communitycard p {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.communitycardcontent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.communitycardcontent img {
+  width: 15%;
+  border: 2px solid black;
+}
