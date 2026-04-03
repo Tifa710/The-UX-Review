@@ -732,7 +732,7 @@ body {
   box-shadow: 6px 6px 0 black;
   transition: 500ms;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 .btncommunity:hover {
   transform: translate(6px, 6px);
@@ -775,4 +775,106 @@ body {
 .communitycardcontent img {
   width: 15%;
   border: 2px solid black;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.footercontant {
+  display: flex;
+  justify-content: space-around;
+}
+.footercontant .reveiw {
+  width: 30%;
+}
+.footercontant .reveiw div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footercontant .reveiw div h3 {
+  font-size: 30px;
+}
+.footercontant .reveiw div span {
+  padding: 10px;
+  font-size: 30px;
+  background-color: white;
+}
+.footercontant .reveiw p {
+  padding: 20px 0;
+}
+.fcategory {
+  width: 20%;
+}
+.fcategory h3 {
+  font-size: 25px;
+}
+.fcategory ul {
+  text-align: left;
+  padding: 0;
+}
+.fcategory ul li {
+  width: fit-content;
+  margin-top: 20px;
+  font-size: 18px;
+  transition: 500ms;
+}
+.fcategory ul li a:hover {
+  color: #ffdf20;
+}
+.newsletter {
+  width: 40%;
+}
+.newsletter h3 {
+  font-size: 25px;
+}
+.newsletter input {
+  width: 100%;
+  background-color: transparent;
+  height: 10vh;
+  padding: 10px;
+  font-size: 20px;
+  border: 3px solid white;
+}
+.newsletter input:hover {
+  border: 3px solid #ffdf20;
+}
+.btnfooter {
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #ffdf20;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  transition: 500ms;
+  cursor: pointer;
+}
+.btnfooter:hover {
+  transform: translate(6px, 6px);
+  background-color: #fdc700;
+}
+.breakfooter {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+}
+.rights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.rights div {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rights div p a {
+  transition: 500ms;
+}
+.rights div p a:hover {
+  color: #ffdf20;
 }
